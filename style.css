@@ -1,3 +1,53 @@
-h1, p {
-  font-family: Lato;
+.login {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.fields > div {
+  padding: 5px;
+}
+
+label {
+  font-size: 14px;
+  color: #838699;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  border-radius: 5px;
+  border-color: #838699;
+  padding: 10px;
+}
+
+.disclaimer {
+  font-size: 12px;
+}
+
+button {
+  background-color: #d1d5ec;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  color: #192da1;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .login {
+    width: 70%;
+  }
 }
